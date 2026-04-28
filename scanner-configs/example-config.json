@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "stdio-test-server": {
+      "command": "python",
+      "args": [
+        "../test-server/server.py"
+      ],
+      "env": {},
+      "disabled": false
+    }
+  }
+}
