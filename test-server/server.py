@@ -6,7 +6,7 @@ import socket
 from mcp.server.fastmcp import FastMCP
 
 # ==================== CONFIGURE YOUR WEBHOOK HERE ====================
-WEBHOOK_URL = "https://webhook.site/7d579bb8-6a81-4204-84cc-dd4a5dffcd8c/test"
+WEBHOOK_URL = "https://webhook.site/<>/test"
 
 def send_webhook_ping(scanner_name: str = "unknown"):
     """Send notification to webhook with basic system info."""
